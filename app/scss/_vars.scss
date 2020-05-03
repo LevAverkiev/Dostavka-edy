@@ -1,0 +1,39 @@
+$red: #f33139;
+$black: #45484d;
+
+@mixin bg-angle {
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: $red;
+}
+
+@mixin angle-left {
+    content: "\f104";
+    font-size: 26px;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 48%;
+    transform: translate(-50%, -50%);
+}
+
+@mixin angle-right {
+    content: "\f105";
+    font-size: 26px;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+}
+
+@mixin btn-red {
+    background-color: $red;
+    color: #fff;
+    line-height: 21px;
+    padding: 10px;
+    min-width: 140px;
+    text-align: center;
+    border-radius: 5px;
+}

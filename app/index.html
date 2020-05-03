@@ -1,20 +1,1154 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Dostavka edy</title>
+    <link
+        href="https://fonts.googleapis.com/css?family=Montserrat:500|Open+Sans|Oswald:400,500|Roboto:400,500&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="css/libs.min.css">
     <link rel="stylesheet" href="css/style.min.css">
 </head>
+
 <body>
+
+    <header class="header">
+        <div class="header__top">
+            <div class="container">
+                <div class="header__top-inner">
+                    <div class="header__logo">
+                        <a href="">
+                            <img src="images/logo.png" alt="">
+                        </a>
+                    </div>
+                    <div class="header__inner-form">
+                        <form>
+                            <input type="text" placeholder="Поиск...">
+                            <a class="bg__icon icon-search" href="#"></a>
+                        </form>
+                    </div>
+                    <div class="header__phone">
+                        <a class="bg__icon icon-mobile" href="#"></a>
+                        <span>8 (999) 123 45 67</span>
+                    </div>
+                    <a class="bg__icon icon-heart-o" href="#"></a>
+                    <a class="bg__icon shopping-bag" href="#">
+                        <img src="images/shopping-bag.svg">
+                        <span>2</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="header__menu">
+            <div class="container">
+                <nav class="menu">
+                    <div class="menu-btn">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <ul class="menu__list">
+                        <li><a href="#">Главная</a></li>
+                        <li><a href="#">О нас</a></li>
+                        <li><a href="#">Акции</a></li>
+                        <li><a href="#">Блог</a></li>
+                        <li><a href="#">Доставка</a></li>
+                        <li><a href="#">Оплата</a></li>
+                        <li><a href="#">Контакты</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <div class="main-content">
+
+        <section class="category">
+            <div class="container">
+                <div class="category__top">
+                    <div class="category__top-menu">
+                        <div class="category__top-title">Категории</div>
+                        <ul class="menu">
+                            <li>
+                                <a href="#" class="burger">Бургеры</a>
+                            </li>
+                            <li>
+                                <a href="#" class="pizza">Пицца</a>
+                            </li>
+                            <li>
+                                <a href="#" class="sushi">Суши</a>
+                            </li>
+                            <li>
+                                <a href="#" class="salad">Закуски</a>
+                            </li>
+                            <li>
+                                <a href="#" class="cake">Десерты</a>
+                            </li>
+                            <li class="coffee">
+                                <a href="#" class="coffee">Напитки</a>
+                            </li>
+                            <li>
+                                <a href="#" class="sauces">Соусы</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="category__top-burger" style="background-image: url(images/burger_on_table.jpg);">
+                        <div class="category__top-box">
+                            <div class="category__top-title">Большой ассортимент бургеров!</div>
+                            <div class="category__top-description">У нас предоставлены бургеры с большинства популярных
+                                фастфудов.</div>
+                            <a href="#">Подробнее</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="category__bottom">
+                    <div class="category__bottom-item" style="background-image: url(images/burger_and_pizza.jpg);">
+                        <div class="category__bottom-background"></div>
+                        <div class="category__bottom-text">
+                            <div class="category__bottom-title">Бургеры & Пицца</div>
+                            <a href="#">
+                                <div class="category__bottom-link">Подробнее</div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="category__bottom-item" style="background-image: url(images/sywi_and_rolly.jpg);">
+                        <div class="category__bottom-background"></div>
+                        <div class="category__bottom-text">
+                            <div class="category__bottom-title">Суши & Роллы</div>
+                            <a href="#">
+                                <div class="category__bottom-link">Подробнее</div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="category__bottom-item" style="background-image: url(images/zakyski_and_desert.jpg);">
+                        <div class="category__bottom-background"></div>
+                        <div class="category__bottom-text">
+                            <div class="category__bottom-title">Закуски & Десерты</div>
+                            <a href="#">
+                                <div class="category__bottom-link">Подробнее</div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="sliders">
+            <div class="container">
+                <div class="sliders__inner">
+                    <div class="special-offer">
+                        <div class="special-offer-title title">Спецпредложения</div>
+                        <div class="special-offer__inner">
+
+                            <div class="special-offer__item">
+                                <img src="images/pizza-tomaty.jpg">
+                            </div>
+                            <div class="special-offer__item">
+                                <img src="images/pizza-olivki.jpg">
+                            </div>
+                            <div class="special-offer__item">
+                                <img src="images/pizza-salymi.jpg">
+                            </div>
+
+                        </div>
+                        <div class="special-offer__date">
+                            <div class="special-offer__day bg__offer">05<span>Дня</span></div>
+                            <div class="special-offer__hour bg__offer">16<span>Часов</span></div>
+                            <div class="special-offer__minute bg__offer">48<span>Минут</span></div>
+                            <div class="special-offer__second bg__offer">31<span>Секунд</span></div>
+                        </div>
+                        <div class="special-offer__text">Третья пицца бесплатно!</div>
+                        <div class="special-offer__price">790 р <span>1185 р</span></div>
+                        <div class="special-offer__link">
+                            <a href="#">Добавить в заказ</a>
+                        </div>
+                    </div>
+                    <div class="popular-product">
+                        <div class="popular-product-title title">Популярные продукты</div>
+                        <div class="popular-product__inner">
+
+                            <div class="popular-product__main-item">
+
+                                <div class="popular-product__wrapper line">
+                                    <div class="popular-product__item">
+                                        <div class="popular-product__item-inner">
+                                            <div class="popular-product__img">
+                                                <a href="#"><img src="images/bekonaizer.jpg"></a>
+                                            </div>
+                                            <div class="popular-product__info">
+                                                <div class="popular-product__title">Беконайзер</div>
+                                                <div class="popular-product__description">Вес: 335 г.; Ккал: 1021.7;
+                                                    Белки:
+                                                    57.2; Жиры: 65.7</div>
+                                                <div class="popular-product__bottom">
+                                                    <div class="popular-product__price">310 р</div>
+                                                    <a href="#">
+                                                        <div class="popular-product__basket">В корзину</div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="popular-product__wrapper">
+                                    <div class="popular-product__item">
+                                        <div class="popular-product__item-inner">
+                                            <div class="popular-product__img">
+                                                <a href="#"><img src="images/gamburger.jpg"></a>
+                                            </div>
+                                            <div class="popular-product__info">
+                                                <div class="popular-product__title">Гамбургер</div>
+                                                <div class="popular-product__description">Вес: 335 г.; Ккал: 1021.7;
+                                                    Белки:
+                                                    57.2; Жиры: 65.7</div>
+                                                <div class="popular-product__bottom">
+                                                    <div class="popular-product__price">277 р</div>
+                                                    <a href="#">
+                                                        <div class="popular-product__basket">В корзину</div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="popular-product__main-item">
+
+                                <div class="popular-product__wrapper line">
+                                    <div class="popular-product__item">
+                                        <div class="popular-product__item-inner">
+                                            <div class="popular-product__img">
+                                                <a href="#"><img src="images/double_cheese.jpg"></a>
+                                            </div>
+                                            <div class="popular-product__info">
+                                                <div class="popular-product__title">Двойной сыр</div>
+                                                <div class="popular-product__description">Вес: 335 г.; Ккал: 1021.7;
+                                                    Белки:
+                                                    57.2; Жиры: 65.7</div>
+                                                <div class="popular-product__bottom">
+                                                    <div class="popular-product__price">290 р</div>
+                                                    <a href="#">
+                                                        <div class="popular-product__basket">В корзину</div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="popular-product__wrapper">
+                                    <div class="popular-product__item">
+                                        <div class="popular-product__item-inner">
+                                            <div class="popular-product__img">
+                                                <a href="#"><img src="images/triple_cheese.jpg"></a>
+                                            </div>
+                                            <div class="popular-product__info">
+                                                <div class="popular-product__title">Тройной сыр</div>
+                                                <div class="popular-product__description">Вес: 335 г.; Ккал: 1021.7;
+                                                    Белки:
+                                                    57.2; Жиры: 65.7</div>
+                                                <div class="popular-product__bottom">
+                                                    <div class="popular-product__price">310 р</div>
+                                                    <a href="#">
+                                                        <div class="popular-product__basket">В корзину</div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="popular-product__main-item">
+
+                                <div class="popular-product__wrapper line">
+                                    <div class="popular-product__item">
+                                        <div class="popular-product__item-inner">
+                                            <div class="popular-product__img">
+                                                <a href="#"><img src="images/bekonaizer.jpg"></a>
+                                            </div>
+                                            <div class="popular-product__info">
+                                                <div class="popular-product__title">Беконайзер</div>
+                                                <div class="popular-product__description">Вес: 335 г.; Ккал: 1021.7;
+                                                    Белки:
+                                                    57.2; Жиры: 65.7</div>
+                                                <div class="popular-product__bottom">
+                                                    <div class="popular-product__price">310 р</div>
+                                                    <a href="#">
+                                                        <div class="popular-product__basket">В корзину</div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="popular-product__wrapper">
+                                    <div class="popular-product__item">
+                                        <div class="popular-product__item-inner">
+                                            <div class="popular-product__img">
+                                                <a href="#"><img src="images/gamburger.jpg"></a>
+                                            </div>
+                                            <div class="popular-product__info">
+                                                <div class="popular-product__title">Гамбургер</div>
+                                                <div class="popular-product__description">Вес: 335 г.; Ккал: 1021.7;
+                                                    Белки:
+                                                    57.2; Жиры: 65.7</div>
+                                                <div class="popular-product__bottom">
+                                                    <div class="popular-product__price">277 р</div>
+                                                    <a href="#">
+                                                        <div class="popular-product__basket">В корзину</div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="popular-product__main-item">
+
+                                <div class="popular-product__wrapper line">
+                                    <div class="popular-product__item">
+                                        <div class="popular-product__item-inner">
+                                            <div class="popular-product__img">
+                                                <a href="#"><img src="images/double_cheese.jpg"></a>
+                                            </div>
+                                            <div class="popular-product__info">
+                                                <div class="popular-product__title">Двойной сыр</div>
+                                                <div class="popular-product__description">Вес: 335 г.; Ккал: 1021.7;
+                                                    Белки:
+                                                    57.2; Жиры: 65.7</div>
+                                                <div class="popular-product__bottom">
+                                                    <div class="popular-product__price">290 р</div>
+                                                    <a href="#">
+                                                        <div class="popular-product__basket">В корзину</div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="popular-product__wrapper">
+                                    <div class="popular-product__item">
+                                        <div class="popular-product__item-inner">
+                                            <div class="popular-product__img">
+                                                <a href="#"><img src="images/triple_cheese.jpg"></a>
+                                            </div>
+                                            <div class="popular-product__info">
+                                                <div class="popular-product__title">Тройной сыр</div>
+                                                <div class="popular-product__description">Вес: 335 г.; Ккал: 1021.7;
+                                                    Белки:
+                                                    57.2; Жиры: 65.7</div>
+                                                <div class="popular-product__bottom">
+                                                    <div class="popular-product__price">310 р</div>
+                                                    <a href="#">
+                                                        <div class="popular-product__basket">В корзину</div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="best-offers">
+            <div class="container">
+                <div class="best-offers__wrapper">
+                    <div class="best-offers-title title">Лучшие предложения</div>
+                    <div class="best-offers__inner">
+
+                        <div class="best-offers__wrap">
+                            <div class="best-offers__item">
+                                <div class="best-offers__item-inner">
+                                    <div class="best-offers__img">
+                                        <a href="#"><img src="images/three_cheese.jpg"></a>
+                                    </div>
+                                    <div class="best-offers__info">
+                                        <div class="best-offers__title">Тройной сыр</div>
+                                        <div class="best-offers__description">Вес: 335 г.; Ккал: 1021.7; Белки:
+                                            57.2; Жиры: 65.7</div>
+                                        <div class="best-offers__bottom">
+                                            <div class="best-offers__price">310 р</div>
+                                            <a href="#">
+                                                <div class="best-offers__basket">В корзину</div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="best-offers__wrap">
+                            <div class="best-offers__item">
+                                <div class="best-offers__item-inner">
+                                    <div class="best-offers__img">
+                                        <a href="#"><img src="images/longburger.jpg"></a>
+                                    </div>
+                                    <div class="best-offers__info">
+                                        <div class="best-offers__title">Лонгбургер</div>
+                                        <div class="best-offers__description">Вес: 335 г.; Ккал: 1021.7; Белки:
+                                            57.2; Жиры: 65.7</div>
+                                        <div class="best-offers__bottom">
+                                            <div class="best-offers__price">288 р</div>
+                                            <a href="#">
+                                                <div class="best-offers__basket">В корзину</div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="best-offers__wrap">
+                            <div class="best-offers__item">
+                                <div class="best-offers__item-inner">
+                                    <div class="best-offers__img">
+                                        <a href="#"><img src="images/burger_gril.jpg"></a>
+                                    </div>
+                                    <div class="best-offers__info">
+                                        <div class="best-offers__title">Бургер гриль</div>
+                                        <div class="best-offers__description">Вес: 335 г.; Ккал: 1021.7; Белки:
+                                            57.2; Жиры: 65.7</div>
+                                        <div class="best-offers__bottom">
+                                            <div class="best-offers__price">410 р</div>
+                                            <a href="#">
+                                                <div class="best-offers__basket">В корзину</div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="best-offers__wrap">
+                            <div class="best-offers__item">
+                                <div class="best-offers__item-inner">
+                                    <div class="best-offers__img">
+                                        <a href="#"><img src="images/triple_cheese.jpg"></a>
+                                    </div>
+                                    <div class="best-offers__info">
+                                        <div class="best-offers__title">Тройной сыр</div>
+                                        <div class="best-offers__description">Вес: 335 г.; Ккал: 1021.7; Белки:
+                                            57.2; Жиры: 65.7</div>
+                                        <div class="best-offers__bottom">
+                                            <div class="best-offers__price">310 р</div>
+                                            <a href="#">
+                                                <div class="best-offers__basket">В корзину</div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="best-offers__wrap">
+                            <div class="best-offers__item">
+                                <div class="best-offers__item-inner">
+                                    <div class="best-offers__img">
+                                        <a href="#"><img src="images/longburger.jpg"></a>
+                                    </div>
+                                    <div class="best-offers__info">
+                                        <div class="best-offers__title">Лонгбургер</div>
+                                        <div class="best-offers__description">Вес: 335 г.; Ккал: 1021.7; Белки:
+                                            57.2; Жиры: 65.7</div>
+                                        <div class="best-offers__bottom">
+                                            <div class="best-offers__price">288 р</div>
+                                            <a href="#">
+                                                <div class="best-offers__basket">В корзину</div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="best-offers__wrap">
+                            <div class="best-offers__item">
+                                <div class="best-offers__item-inner">
+                                    <div class="best-offers__img">
+                                        <a href="#"><img src="images/burger_gril.jpg"></a>
+                                    </div>
+                                    <div class="best-offers__info">
+                                        <div class="best-offers__title">Бургер гриль</div>
+                                        <div class="best-offers__description">Вес: 335 г.; Ккал: 1021.7; Белки:
+                                            57.2; Жиры: 65.7</div>
+                                        <div class="best-offers__bottom">
+                                            <div class="best-offers__price">410 р</div>
+                                            <a href="#">
+                                                <div class="best-offers__basket">В корзину</div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="commercial-info">
+            <div class="container">
+                <div class="commercial-info__wrapper">
+                    <div class="commercial-info__independent" style="background-image: url(images/cake_on_table.jpg);">
+                        <div class="commercial-info__inner">
+                            <div class="commercial-info__title">Сделай пиццу сам</div>
+                            <div class="commercial-info__desc">Выбери, что будет в твоей пицце сам! У нас доступен
+                                конструктор пиццы</div>
+                            <ul class="menu">
+                                <li>Собери свою пиццу</li>
+                                <li>Оставь заявку</li>
+                                <li>Получи пиццу в течении 60 минут</li>
+                            </ul>
+                            <a href="#">Добавить в заказ</a>
+                        </div>
+                    </div>
+                    <div class="commercial-info__right">
+                        <div class="commercial-info__delivery">
+                            <div class="commercial-info__delivery-inner">
+                                <a href="#">
+                                    <img src="images/car.svg">
+                                    <div class="commercial-info__delivery-title">Бесплатная доставка</div>
+                                    <div class="commercial-info__delivery-info">При закаке от 1000 р</div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="commercial-info__novetly"
+                            style="background-image: url(images/burger_on_cutting_board.jpg);">
+                            <a href="#">
+                                <div class="commercial-info__novetly-box">
+                                    <div class="commercial-info__novetly-title">Новинка!</div>
+                                    <div class="commercial-info__novetly-desc">Бургер от шефа</div>
+                                    <div class="commercial-info__novetly-price">410 р</div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="burgers">
+            <div class="container">
+                <div class="burgers__wrapper">
+                    <div class="burgers-title title">Бургеры</div>
+                    <div class="burgers__inner">
+
+                        <div class="burgers__main-item">
+                            <div class="burgers__wrap line">
+                                <div class="burgers__item">
+                                    <div class="burgers__item-inner">
+                                        <div class="burgers__img">
+                                            <a href="#"><img src="images/three_cheese.jpg"></a>
+                                        </div>
+                                        <div class="burgers__info">
+                                            <div class="burgers__title">Беконайзер</div>
+                                            <div class="burgers__description">Вес: 335 г.; Ккал: 1021.7; Белки:
+                                                57.2; Жиры: 65.7</div>
+                                            <div class="burgers__bottom">
+                                                <div class="burgers__price">250 р</div>
+                                                <a href="#">
+                                                    <div class="burgers__basket">В корзину</div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="burgers__wrap">
+                                <div class="burgers__item">
+                                    <div class="burgers__item-inner">
+                                        <div class="burgers__img">
+                                            <a href="#"><img src="images/bekonaizer.jpg"></a>
+                                        </div>
+                                        <div class="burgers__info">
+                                            <div class="burgers__title">Беконайзер</div>
+                                            <div class="burgers__description">Вес: 335 г.; Ккал: 1021.7; Белки:
+                                                57.2; Жиры: 65.7</div>
+                                            <div class="burgers__bottom">
+                                                <div class="burgers__price">310 р</div>
+                                                <a href="#">
+                                                    <div class="burgers__basket">В корзину</div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="burgers__main-item">
+                            <div class="burgers__wrap line">
+                                <div class="burgers__item">
+                                    <div class="burgers__item-inner">
+                                        <div class="burgers__img">
+                                            <a href="#"><img src="images/longburger.jpg"></a>
+                                        </div>
+                                        <div class="burgers__info">
+                                            <div class="burgers__title">Лонгбургер</div>
+                                            <div class="burgers__description">Вес: 335 г.; Ккал: 1021.7; Белки:
+                                                57.2; Жиры: 65.7</div>
+                                            <div class="burgers__bottom">
+                                                <div class="burgers__price">288 р</div>
+                                                <a href="#">
+                                                    <div class="burgers__basket">В корзину</div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="burgers__wrap">
+                                <div class="burgers__item">
+                                    <div class="burgers__item-inner">
+                                        <div class="burgers__img">
+                                            <a href="#"><img src="images/double_cheese.jpg"></a>
+                                        </div>
+                                        <div class="burgers__info">
+                                            <div class="burgers__title">Двойной сыр</div>
+                                            <div class="burgers__description">Вес: 335 г.; Ккал: 1021.7; Белки:
+                                                57.2; Жиры: 65.7</div>
+                                            <div class="burgers__bottom">
+                                                <div class="burgers__price">290 р</div>
+                                                <a href="#">
+                                                    <div class="burgers__basket">В корзину</div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="burgers__main-item">
+                            <div class="burgers__wrap line">
+                                <div class="burgers__item">
+                                    <div class="burgers__item-inner">
+                                        <div class="burgers__img">
+                                            <a href="#"><img src="images/burger_gril.jpg"></a>
+                                        </div>
+                                        <div class="burgers__info">
+                                            <div class="burgers__title">Бургер гриль</div>
+                                            <div class="burgers__description">Вес: 335 г.; Ккал: 1021.7; Белки:
+                                                57.2; Жиры: 65.7</div>
+                                            <div class="burgers__bottom">
+                                                <div class="burgers__price">410 р</div>
+                                                <a href="#">
+                                                    <div class="burgers__basket">В корзину</div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="burgers__wrap">
+                                <div class="burgers__item">
+                                    <div class="burgers__item-inner">
+                                        <div class="burgers__img">
+                                            <a href="#"><img src="images/triple_cheese.jpg"></a>
+                                        </div>
+                                        <div class="burgers__info">
+                                            <div class="burgers__title">Тройной сыр</div>
+                                            <div class="burgers__description">Вес: 335 г.; Ккал: 1021.7; Белки:
+                                                57.2; Жиры: 65.7</div>
+                                            <div class="burgers__bottom">
+                                                <div class="burgers__price">310 р</div>
+                                                <a href="#">
+                                                    <div class="burgers__basket">В корзину</div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="burgers__main-item">
+                            <div class="burgers__wrap line">
+                                <div class="burgers__item">
+                                    <div class="burgers__item-inner">
+                                        <div class="burgers__img">
+                                            <a href="#"><img src="images/three_cheese.jpg"></a>
+                                        </div>
+                                        <div class="burgers__info">
+                                            <div class="burgers__title">Беконайзер</div>
+                                            <div class="burgers__description">Вес: 335 г.; Ккал: 1021.7; Белки:
+                                                57.2; Жиры: 65.7</div>
+                                            <div class="burgers__bottom">
+                                                <div class="burgers__price">250 р</div>
+                                                <a href="#">
+                                                    <div class="burgers__basket">В корзину</div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="burgers__wrap">
+                                <div class="burgers__item">
+                                    <div class="burgers__item-inner">
+                                        <div class="burgers__img">
+                                            <a href="#"><img src="images/bekonaizer.jpg"></a>
+                                        </div>
+                                        <div class="burgers__info">
+                                            <div class="burgers__title">Беконайзер</div>
+                                            <div class="burgers__description">Вес: 335 г.; Ккал: 1021.7; Белки:
+                                                57.2; Жиры: 65.7</div>
+                                            <div class="burgers__bottom">
+                                                <div class="burgers__price">310 р</div>
+                                                <a href="#">
+                                                    <div class="burgers__basket">В корзину</div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="burgers__main-item">
+                            <div class="burgers__wrap line">
+                                <div class="burgers__item">
+                                    <div class="burgers__item-inner">
+                                        <div class="burgers__img">
+                                            <a href="#"><img src="images/longburger.jpg"></a>
+                                        </div>
+                                        <div class="burgers__info">
+                                            <div class="burgers__title">Лонгбургер</div>
+                                            <div class="burgers__description">Вес: 335 г.; Ккал: 1021.7; Белки:
+                                                57.2; Жиры: 65.7</div>
+                                            <div class="burgers__bottom">
+                                                <div class="burgers__price">288 р</div>
+                                                <a href="#">
+                                                    <div class="burgers__basket">В корзину</div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="burgers__wrap">
+                                <div class="burgers__item">
+                                    <div class="burgers__item-inner">
+                                        <div class="burgers__img">
+                                            <a href="#"><img src="images/double_cheese.jpg"></a>
+                                        </div>
+                                        <div class="burgers__info">
+                                            <div class="burgers__title">Двойной сыр</div>
+                                            <div class="burgers__description">Вес: 335 г.; Ккал: 1021.7; Белки:
+                                                57.2; Жиры: 65.7</div>
+                                            <div class="burgers__bottom">
+                                                <div class="burgers__price">290 р</div>
+                                                <a href="#">
+                                                    <div class="burgers__basket">В корзину</div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="burgers__main-item">
+                            <div class="burgers__wrap line">
+                                <div class="burgers__item">
+                                    <div class="burgers__item-inner">
+                                        <div class="burgers__img">
+                                            <a href="#"><img src="images/burger_gril.jpg"></a>
+                                        </div>
+                                        <div class="burgers__info">
+                                            <div class="burgers__title">Бургер гриль</div>
+                                            <div class="burgers__description">Вес: 335 г.; Ккал: 1021.7; Белки:
+                                                57.2; Жиры: 65.7</div>
+                                            <div class="burgers__bottom">
+                                                <div class="burgers__price">410 р</div>
+                                                <a href="#">
+                                                    <div class="burgers__basket">В корзину</div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="burgers__wrap">
+                                <div class="burgers__item">
+                                    <div class="burgers__item-inner">
+                                        <div class="burgers__img">
+                                            <a href="#"><img src="images/triple_cheese.jpg"></a>
+                                        </div>
+                                        <div class="burgers__info">
+                                            <div class="burgers__title">Тройной сыр</div>
+                                            <div class="burgers__description">Вес: 335 г.; Ккал: 1021.7; Белки:
+                                                57.2; Жиры: 65.7</div>
+                                            <div class="burgers__bottom">
+                                                <div class="burgers__price">310 р</div>
+                                                <a href="#">
+                                                    <div class="burgers__basket">В корзину</div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="promo-info">
+            <div class="container">
+                <div class="promo-info__inner">
+                    <div class="promo-info__fri" style="background-image: url(images/french_fries.jpg);">
+                        <div class="promo-info-background"></div>
+                        <div class="promo-info__box">
+                            <div class="promo-info__title">Картошка фри в подарок!</div>
+                            <div class="promo-info__desc">Только при первом заказе,<br> получите картошку фри бесплатно
+                            </div>
+                            <a href="#">Сделать заказ</a>
+                        </div>
+                    </div>
+                    <div class="promo-info__nuggets" style="background-image: url(images/nuggets.jpg);">
+                        <div class="promo-info-background"></div>
+                        <div class="promo-info__box">
+                            <div class="promo-info__title">Новинка!</div>
+                            <div class="promo-info__desc">Новые тонкие наггетсы, высокой прожарки со специальными
+                                специями
+                            </div>
+                            <a href="#">Заказать</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="blog">
+            <div class="container">
+                <div class="blog__wrapper">
+                    <div class="blog__title title">Блог</div>
+
+                    <div class="blog__inner">
+
+                        <div class="blog__item">
+                            <a href="#" class="images">
+                                <div class="blog__item-img" style="background-image: url(images/home_burger.jpg);">
+                                </div>
+                            </a>
+                            <div class="blog__item-title">Настоящий домашний бургер</div>
+                            <div class="blog__item-info">
+                                <div class="blog__item-source">Источник: <span><a href="#">Едим дома</a></span></div>
+                                <div class="blog__item-date">07.07.2019</div>
+                            </div>
+                        </div>
+
+                        <div class="blog__item">
+                            <a href="#" class="images">
+                                <div class="blog__item-img" style="background-image: url(images/pizza_on_paddle.jpg);">
+                                </div>
+                            </a>
+                            <div class="blog__item-title">15 интересных фактов о пицце</div>
+                            <div class="blog__item-info">
+                                <div class="blog__item-source">Источник: <span><a href="#">ArtPizza</a></span>
+                                </div>
+                                <div class="blog__item-date">26.06.2019</div>
+                            </div>
+                        </div>
+
+                        <div class="blog__item">
+                            <a href="#" class="images">
+                                <div class="blog__item-img" style="background-image: url(images/sywi_on_plate.jpg);">
+                                </div>
+                            </a>
+                            <div class="blog__item-title">История возникновения суши</div>
+                            <div class="blog__item-info">
+                                <div class="blog__item-source">Источник: <span><a href="#">Selfire</a></span></div>
+                                <div class="blog__item-date">19.06.2019</div>
+                            </div>
+                        </div>
+
+                        <div class="blog__item">
+                            <a href="#" class="images">
+                                <div class="blog__item-img" style="background-image: url(images/home_burger.jpg);">
+                                </div>
+                            </a>
+                            <div class="blog__item-title">Настоящий домашний бургер</div>
+                            <div class="blog__item-info">
+                                <div class="blog__item-source">Источник: <span><a href="#">Едим дома</a></span></div>
+                                <div class="blog__item-date">07.07.2019</div>
+                            </div>
+                        </div>
+
+                        <div class="blog__item">
+                            <a href="#" class="images">
+                                <div class="blog__item-img" style="background-image: url(images/pizza_on_paddle.jpg);">
+                                </div>
+                            </a>
+                            <div class="blog__item-title">15 интересных фактов о пицце</div>
+                            <div class="blog__item-info">
+                                <div class="blog__item-source">Источник: <span><a href="#">ArtPizza</a></span>
+                                </div>
+                                <div class="blog__item-date">26.06.2019</div>
+                            </div>
+                        </div>
+
+                        <div class="blog__item">
+                            <a href="#" class="images">
+                                <div class="blog__item-img" style="background-image: url(images/sywi_on_plate.jpg);">
+                                </div>
+                            </a>
+                            <div class="blog__item-title">История возникновения суши</div>
+                            <div class="blog__item-info">
+                                <div class="blog__item-source">Источник: <span><a href="#">Selfire</a></span></div>
+                                <div class="blog__item-date">19.06.2019</div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="slider-advertising">
+            <div class="container">
+                <div class="slider-advertising__wrapper">
+                    <div class="slider-advertising__wrap">
+
+                        <div class="slider-advertising__item">
+                            <div class="slider-advertising__inner">
+                                <img src="images/macdonalds.svg">
+                            </div>
+                        </div>
+
+                        <div class="slider-advertising__item">
+                            <div class="slider-advertising__inner">
+                                <img src="images/burger_king.svg">
+                            </div>
+                        </div>
+
+                        <div class="slider-advertising__item">
+                            <div class="slider-advertising__inner">
+                                <img src="images/kfc.svg">
+                            </div>
+                        </div>
+
+                        <div class="slider-advertising__item">
+                            <div class="slider-advertising__inner">
+                                <img src="images/dodo-pizza.svg">
+                            </div>
+                        </div>
+
+                        <div class="slider-advertising__item">
+                            <div class="slider-advertising__inner">
+                                <img src="images/subway.svg">
+                            </div>
+                        </div>
+
+                        <div class="slider-advertising__item">
+                            <div class="slider-advertising__inner">
+                                <img src="images/wendys.svg">
+                            </div>
+                        </div>
+
+                        <div class="slider-advertising__item">
+                            <div class="slider-advertising__inner">
+                                <img src="images/macdonalds.svg">
+                            </div>
+                        </div>
+
+                        <div class="slider-advertising__item">
+                            <div class="slider-advertising__inner">
+                                <img src="images/burger_king.svg">
+                            </div>
+                        </div>
+
+                        <div class="slider-advertising__item">
+                            <div class="slider-advertising__inner">
+                                <img src="images/kfc.svg">
+                            </div>
+                        </div>
+
+                        <div class="slider-advertising__item">
+                            <div class="slider-advertising__inner">
+                                <img src="images/dodo-pizza.svg">
+                            </div>
+                        </div>
+
+                        <div class="slider-advertising__item">
+                            <div class="slider-advertising__inner">
+                                <img src="images/subway.svg">
+                            </div>
+                        </div>
+
+                        <div class="slider-advertising__item">
+                            <div class="slider-advertising__inner">
+                                <img src="images/wendys.svg">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <footer class="footer">
+        <div class="footer__top">
+            <div class="container">
+                <div class="footer__top-wrapper">
+                    <div class="footer__top-inner">
+                        <ul class="footer__top-list">
+                            <li class="car">
+                                <a href="#" class="car">
+                                    <!-- <img src="images/car.svg"> -->
+                                    <span>Быстрая доставка</span>
+                                </a>       
+                            </li>
+                            <li class="customer-service">
+                                <a href="#" class="customer">
+                                    <span>Премиум сервис</span>
+                                </a>
+                                <!-- <img src="images/customer-service.svg">
+                                <a href="#">Премиум сервис</a> -->
+                            </li>
+                            <li class="offer">
+                                <a href="#" class="offer">
+                                    <span>Ежемесячные акции</span>
+                                </a>
+                                <!-- <img src="images/offer.svg">
+                                <a href="#">Ежемесячные акции</a> -->
+                            </li>
+                            <li class="smartphone">
+                                <a href="#" class="smartphone">
+                                    <span>NFC платежи</span>
+                                </a>
+                                <!-- <img src="images/smartphone.svg">
+                                <a href="#">NFC платежи</a> -->
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer__middle">
+            <div class="container">
+                <div class="footer__middle-inner">
+                    <div class="footer__middle-item footer__main-info">
+                        <a href="#">
+                            <img src="images/logo.png">
+                        </a>
+                        <div class="footer__middle-info">
+                            <div class="footer__middle-adress">Адрес: <a href="#"><span>115516, Москва, ул.Бакинская, 53</span></a>
+                            </div>
+                            <div class="footer__middle-phone">Телефон: <a href="tel:89991234567"><span>8 (999) 123 45 67</span></a></div>
+                            <div class="footer__middle-email">Email: <a href="mailto:info@foodelivery.com"><span>info@foodelivery.com</span></a></div>
+                        </div>
+                    </div>
+                    <div class="footer__middle-item footer__menu">
+                        <div class="footer__middle-title">О нас</div>
+                        <ul class="footer__middle-list">
+                            <li><a href="#">О нас</a></li>
+                            <li><a href="#">Доставка</a></li>
+                            <li><a href="#">Оплата</a></li>
+                            <li><a href="#">Контакты</a></li>
+                            <li><a href="#">Филиалы</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__middle-item footer__menu">
+                        <div class="footer__middle-title">Дополнительно</div>
+                        <ul class="footer__middle-list">
+                            <li><a href="#">Бренды</a></li>
+                            <li><a href="#">Акции</a></li>
+                            <li><a href="#">Сертификаты</a></li>
+                            <li><a href="#">Меню</a></li>
+                            <li><a href="#">Карта сайта</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__middle-item footer__news">
+                        <div class="footer__middle-title">Новости</div>
+                        <div class="footer__middle-form">
+                            <div class="footer__middle-text">Подпишись на наши обновления</div>
+                            <form>
+                                <input type="text" placeholder="Email">
+                                <button type="submit"></button>
+                            </form>
+                        </div>
+                        <ul class="footer__social-link">
+                            <li><a class="icon-facebook" href="#"></a></li>
+                            <li><a class="icon-twitter" href="#"></a></li>
+                            <li><a class="icon-vk" href="#"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer__bottom">
+            <div class="container">
+                <div class="footer__bottom-inner">
+                    <div class="footer__bottom-author">2019 «Pizza & Sushi» <a href="#">Все права защищены</a></div>
+                    <div class="footer__bottom-payment">
+                        <ul class="footer__bottom-list">
+                            <li>
+                                <a href="#">
+                                    <img src="images/visa.svg">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/paypal.svg">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/mastercard.svg">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/maestro.svg">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
 
 
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="js/main.min.js"></script>
-    <script src="js/main.min.js"></script>
-    
+    <script src="js/libs.min.js"></script>
+    <script src="js/main.js"></script>
+
 </body>
+
 </html>
